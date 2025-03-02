@@ -2,14 +2,13 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
-import { Button } from "@/components/ui/button";
+import { appWindow } from "@tauri-apps/plugin-window";
 
 function App() {
   return (
-    <div className="h-screen bg-black">
-      <h1 className="pt-8 font-bold text-xl">UnComputer v0.1</h1>
-      <Button>Click me</Button>
-    </div>
+    <>
+      <p>hello world :3</p>
+    </>
   );
 }
 
