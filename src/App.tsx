@@ -1,14 +1,10 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import { invoke } from "@tauri-apps/api/core";
 import "./App.css";
-import { appWindow } from "@tauri-apps/plugin-window";
 
 function App() {
   return (
-    <>
+    <div className="bg-gray-800 text-white h-screen flex flex-col items-center justify-center">
       <p>hello world :3</p>
-    </>
+    </div>
   );
 }
 
